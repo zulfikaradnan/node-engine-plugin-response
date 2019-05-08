@@ -48,5 +48,23 @@ module.exports = {
   category: 'core',
   title: 'Http Response',
   description: '',
+  parameters: {
+    status: {
+      type: 'number',
+      value: 200
+    },
+    message: {
+      type: 'string',
+      value: 'Ok'
+    },
+    body: {
+      type: 'none',
+      value: ''
+    },
+    headers: {
+      type: 'none',
+      value: ''
+    }
+  },
   execute
 };
